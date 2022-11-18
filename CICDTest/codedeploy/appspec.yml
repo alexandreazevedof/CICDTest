@@ -7,3 +7,6 @@ hooks:
   BeforeInstall:
     - location: \before-install.bat
       timeout: 900
+  AfterInstall:
+    - location: \after-install.bat
+      timeout: 900
