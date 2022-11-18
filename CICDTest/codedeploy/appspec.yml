@@ -8,5 +8,5 @@ hooks:
     - location: \before-install.bat
       timeout: 900
   AfterInstall:
-    - location: \after-install.bat
+    - location: \after-install.ps1
       timeout: 900
